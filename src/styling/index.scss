@@ -1,6 +1,27 @@
+// Font Imports
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("reset.scss");
+@import url("navigation.scss");
+
 html {
-    background-color: blue;
+    background-color: white;
     p {
-      color: white;
+      color: black;
     }
   }
+
+.page-title{
+  font-family: "Montserrat";
+  font-size: 50px;
+  text-decoration: none;
+  color: #003C3C;
+}
+
+.page-title :visited{
+  color: #00B2FF;
+  text-decoration: none;
+}
+
+.accent{
+  color: #00B2FF;
+}
