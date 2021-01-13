@@ -17,7 +17,12 @@
     font-family: "Montserrat";
 }
 
+.nav-link:visited{
+    color: #003C3C;
+}
+
 .nav-link:hover{
     transition: all .25s;
     color: #00B2FF;
 }
+
