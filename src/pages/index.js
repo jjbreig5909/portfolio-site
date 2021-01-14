@@ -16,12 +16,33 @@ const IndexPage = () => (
     </div>
     <div className="skills-container">
       <h1 className="section-title">My <span className="accent">Skills</span></h1>
+      <p className="skills-info">Take a look at my current list of skills. I'm always eagerly learning about the latest tools in the industry.</p>
       <div className="skill-bars">
 
         <div className="skill-section"><h2>HTML</h2><div className="skill-bar-container"><div className="skill-bar html"></div></div></div>
         <div className="skill-section"><h2>CSS</h2><div className="skill-bar-container"><div className="skill-bar css"></div></div></div>
         <div className="skill-section"><h2>React</h2><div className="skill-bar-container"><div className="skill-bar react"></div></div></div>
+        <div className="skill-section"><h2>Node.JS</h2><div className="skill-bar-container"><div className="skill-bar node"></div></div></div>
+        <div className="skill-section"><h2>Python</h2><div className="skill-bar-container"><div className="skill-bar python"></div></div></div>
+        <div className="skill-section"><h2>JavaScript</h2><div className="skill-bar-container"><div className="skill-bar sql"></div></div></div>
       </div>
+      <h2 className="skills-title-secondary">Not to mention...</h2>
+      <ul className="skills-extra">
+        <li className="skill">Redux</li>
+        <li className="skill">SASS</li>
+        <li className="skill">LESS</li>
+        <li className="skill">Jest</li>
+        <li className="skill">React Testing Library</li>
+        <li className="skill">Express</li>
+        <li className="skill">Knex</li>
+        <li className="skill">SQL</li>
+        <li className="skill">SQLite3</li>
+        <li className="skill">Git / Github</li>
+        <li className="skill">Photoshop</li>
+        <li className="skill">Illustrator</li>
+        <li className="skill">AutoCAD</li>
+        <li className="skill">Revit</li>
+      </ul>
     </div>
     
   </Layout>

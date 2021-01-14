@@ -85,6 +85,12 @@ html {
   }
 }
 
+.skills-info{
+  text-align: center;
+  font-family: "Raleway";
+  margin-bottom: 25px;
+}
+
 .skill-bars{
   display: flex;
   flex-direction: column;
@@ -131,4 +137,40 @@ html {
 
 .css{
   width: 90%;
+}
+
+.skills-title-secondary{
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.skills-extra{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  font-family: "Raleway";
+  height: fit-content;
+  width: 70%;
+  margin: auto;
+  list-style-type: none;
+  border-left: 1px solid #00B2FF;
+  border-right: 1px solid #00B2FF;
+  border-radius: 10px;
+}
+
+.skill{
+  font-size: 1.25rem;
+  width: fit-content;
+  height: fit-content;
+  margin: 10px 15px 15px 1px;
+  text-align: center;
+}
+
+.skill-divider{
+  border: 1px solid #00B2FF;
+  height: 15px;
+
 }
