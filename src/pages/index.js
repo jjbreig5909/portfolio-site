@@ -44,6 +44,14 @@ const IndexPage = () => (
         <li className="skill">Revit</li>
       </ul>
     </div>
+    <div className="portfolio-section">
+    <h1 className="section-title">My <span className="accent">Projects</span></h1>
+      <div className = "projects">
+        <div className="project-card">
+
+        </div>
+      </div>
+    </div>
     
   </Layout>
 )
