@@ -174,3 +174,39 @@ html {
   height: 15px;
 
 }
+
+.projects-section{
+  border: 1px solid rebeccapurple
+}
+
+.projects{
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid red;
+}
+
+.project-card{
+  border: 1px solid blue;
+  margin: auto;
+}
+
+.project{
+  border: 1px solid green;
+  height: 300px;
+  width: 300px;
+}
+
+.project-information{
+  h2{
+    margin: 10px 0px;
+    font-size: 2rem;
+    font-family: "Raleway";
+    text-align: center;
+  }
+}
+
+.faultline{
+  background-image: url(../images/Faultline-Cover.png);
+  background-size: cover;
+  margin: auto;
+}

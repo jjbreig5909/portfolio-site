@@ -4,6 +4,9 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+
+
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Jeff Breig" />
@@ -29,6 +32,7 @@ const IndexPage = () => (
       <h2 className="skills-title-secondary">Not to mention...</h2>
       <ul className="skills-extra">
         <li className="skill">Redux</li>
+        <li className="skill">Gatsby</li>
         <li className="skill">SASS</li>
         <li className="skill">LESS</li>
         <li className="skill">Jest</li>
@@ -44,11 +48,22 @@ const IndexPage = () => (
         <li className="skill">Revit</li>
       </ul>
     </div>
-    <div className="portfolio-section">
+    <div className="projects-section">
     <h1 className="section-title">My <span className="accent">Projects</span></h1>
       <div className = "projects">
-        <div className="project-card">
-
+        <div className = "project-card">
+          <div className="project faultline" />
+          <div className = "project-information">
+            <h2>FaultLine</h2>
+            <p>This project was called faultline and it was flipping awesome</p>
+          </div>
+        </div>
+        <div className = "project-card">
+          <div className="project faultline" />
+          <div className = "project-information">
+            <h2>FaultLine</h2>
+            <p>This project was called faultline and it was flipping awesome</p>
+          </div>
         </div>
       </div>
     </div>
