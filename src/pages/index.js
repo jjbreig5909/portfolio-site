@@ -1,10 +1,15 @@
 import React from "react"
 import { Link } from "gatsby"
 
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { faReact } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-
+library.add(fab)
 
 
 const IndexPage = () => (
@@ -61,6 +66,7 @@ const IndexPage = () => (
         <div className = "project-card">
           <div className="project faultline" />
           <div className = "project-information">
+            <div className = "project-tech"><FontAwesomeIcon icon={['fab', 'react']} size="2x"/></div>
             <h2>FaultLine</h2>
             <p>This project was called faultline and it was flipping awesome</p>
           </div>
