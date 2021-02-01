@@ -59,6 +59,7 @@ const IndexPage = () => (
         <div className = "project-card">
           <div className="project faultline" />
           <div className = "project-information">
+          <div className = "project-tech"><FontAwesomeIcon icon={['fab', 'react']} size="2x"/><FontAwesomeIcon icon={['fab', 'html5']} size="2x"/><FontAwesomeIcon icon={['fab', 'css3']} size="2x"/></div>
             <h2>FaultLine</h2>
             <p>This project was called faultline and it was flipping awesome</p>
           </div>
@@ -66,7 +67,7 @@ const IndexPage = () => (
         <div className = "project-card">
           <div className="project faultline" />
           <div className = "project-information">
-            <div className = "project-tech"><FontAwesomeIcon icon={['fab', 'react']} size="2x"/></div>
+            <div className = "project-tech"><FontAwesomeIcon icon={['fab', 'react']} size="2x"/><FontAwesomeIcon icon={['fab', 'html5']} size="2x"/><FontAwesomeIcon icon={['fab', 'css3']} size="2x"/><FontAwesomeIcon icon={['fab', 'node-js']} size="2x"/></div>
             <h2>FaultLine</h2>
             <p>This project was called faultline and it was flipping awesome</p>
           </div>
