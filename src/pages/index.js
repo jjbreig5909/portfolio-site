@@ -84,11 +84,11 @@ const IndexPage = () => (
     </div>
     <div className = "contact-section">
       <h1 className="section-title">Let's Get In <span className="accent">Touch</span></h1>
-      <form action="https://formspree.io/f/mjvpzwlw" method="POST">
-        <input type="text" name="name" placeholder = "Your name" />
-        <input type="email" name="_replyto" placeholder = "Your email" />
-        <textarea name="message" placeholder = "Your message" />
-        <input type="submit" value="Send It" />
+      <form action="https://formspree.io/f/mjvpzwlw" method="POST" className="contact-form">
+        <input type="text" name="name" placeholder = "Your name" className="contact-input" required/>
+        <input type="email" name="_replyto" placeholder = "Your email" className="contact-input" required/>
+        <textarea name="message" placeholder = "Your message" className="contact-message" />
+        <input type="submit" value="Send It" className="contact-button"/>
       </form>
     </div>
     
