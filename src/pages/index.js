@@ -60,6 +60,14 @@ const IndexPage = () => (
           <div className="project faultline" />
           <div className = "project-information">
           <div className = "project-tech"><FontAwesomeIcon icon={['fab', 'react']} size="2x"/><FontAwesomeIcon icon={['fab', 'html5']} size="2x"/><FontAwesomeIcon icon={['fab', 'css3']} size="2x"/></div>
+            <h2>Game of Life</h2>
+            <p>This project was called Game of Life and it was flipping awesome</p>
+          </div>
+        </div>
+        <div className = "project-card">
+          <div className="project faultline" />
+          <div className = "project-information">
+            <div className = "project-tech"><FontAwesomeIcon icon={['fab', 'react']} size="2x"/><FontAwesomeIcon icon={['fab', 'html5']} size="2x"/><FontAwesomeIcon icon={['fab', 'css3']} size="2x"/><FontAwesomeIcon icon={['fab', 'node-js']} size="2x"/></div>
             <h2>FaultLine</h2>
             <p>This project was called faultline and it was flipping awesome</p>
           </div>
@@ -73,6 +81,15 @@ const IndexPage = () => (
           </div>
         </div>
       </div>
+    </div>
+    <div className = "contact-section">
+      <h1 className="section-title">Let's Get In <span className="accent">Touch</span></h1>
+      <form action="https://formspree.io/f/mjvpzwlw" method="POST">
+        <input type="text" name="name" placeholder = "Your name" />
+        <input type="email" name="_replyto" placeholder = "Your email" />
+        <textarea name="message" placeholder = "Your message" />
+        <input type="submit" value="Send It" />
+      </form>
     </div>
     
   </Layout>

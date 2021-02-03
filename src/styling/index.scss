@@ -36,7 +36,7 @@ html {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 80vh;
+  height: 90vh;
 }
 
 .home-info{
@@ -176,20 +176,20 @@ html {
 }
 
 .projects-section{
-  border: 1px solid rebeccapurple
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .projects{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  border: 1px solid red;
+  justify-content: space-evenly;
 }
 
 .project-card{
-  border: 1px solid blue;
+  border: 1px solid  #00B2FF;
   margin: 20px 20px;
-  width: 325px;
+  width: 300px;
 }
 
 .project{
