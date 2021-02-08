@@ -22,7 +22,7 @@ const IndexPage = () => (
       </div>
       <div className="home-image"/>
     </div>
-    <div className="skills-container">
+    <div className="skills-container" id="skills">
       <h1 className="section-title">My <span className="accent">Skills</span></h1>
       <p className="skills-info">Take a look at my current list of skills. I'm always eagerly learning about the latest tools in the industry.</p>
       <div className="skill-bars">
@@ -53,7 +53,7 @@ const IndexPage = () => (
         <li className="skill">Revit</li>
       </ul>
     </div>
-    <div className="projects-section">
+    <div className="projects-section" id="portfolio">
     <h1 className="section-title">My <span className="accent">Projects</span></h1>
       <div className = "projects">
         <div className = "project-card">
@@ -82,7 +82,7 @@ const IndexPage = () => (
         </div>
       </div>
     </div>
-    <div className = "contact-section">
+    <div className = "contact-section" id="contact">
       <h1 className="section-title">Let's Get In <span className="accent">Touch</span></h1>
       <form action="https://formspree.io/f/mjvpzwlw" method="POST" className="contact-form">
         <input type="text" name="name" placeholder = "Your name" className="contact-input" required/>

@@ -1,6 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import resume from "../components/Resume2019.pdf"
 
 const Header = ({ siteTitle }) => (
   <header>
@@ -11,10 +12,10 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
       <div className = "nav-links">
-        <Link to="/" className = "nav-link">Skills</Link>
-        <Link to="/" className = "nav-link">Portfolio</Link>
-        <Link to="/" className = "nav-link">Resume</Link>
-        <Link to="/" className = "nav-link">Contact</Link>
+        <Link to="#skills" className = "nav-link">Skills</Link>
+        <Link to="#portfolio" className = "nav-link">Portfolio</Link>
+        <a href={resume} className = "nav-link">Resume</a>{' '}
+        <Link to="#contact" className = "nav-link">Contact</Link>
       </div>
     </div>
   </header>

@@ -4,15 +4,18 @@
 
 @import url("reset.scss");
 @import url("navigation.scss");
+@import url("footer.scss");
 
 html {
     background-color: white;
     p {
       color: black;
     }
+    scroll-behavior: smooth;
   }
 
 .site-container{
+  box-sizing: border-box;
   padding: 30px;
 }
 
@@ -36,7 +39,8 @@ html {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 90vh;
+  height: 100vh;
+  padding-bottom: 100px;
 }
 
 .home-info{
@@ -143,7 +147,7 @@ html {
   text-align: center;
   font-family: "Montserrat";
   font-size: 2rem;
-  margin-bottom: 20px;
+  margin: 20px auto;
 }
 
 .skills-extra{
@@ -154,11 +158,12 @@ html {
   font-family: "Raleway";
   height: fit-content;
   width: 70%;
-  margin: auto;
+  margin: 25px auto;
   list-style-type: none;
   border-left: 1px solid #00B2FF;
   border-right: 1px solid #00B2FF;
   border-radius: 6px;
+
 }
 
 .skill{
@@ -176,7 +181,7 @@ html {
 }
 
 .projects-section{
-  margin-top: 50px;
+  margin-top: 150px;
   margin-bottom: 50px;
 }
 
@@ -190,6 +195,7 @@ html {
   border: 1px solid  #00B2FF;
   margin: 20px 20px;
   width: 300px;
+  padding-bottom: 5px;
 }
 
 .project{
@@ -268,3 +274,4 @@ html {
   transition: all .3s;
   cursor: pointer;
 }
+

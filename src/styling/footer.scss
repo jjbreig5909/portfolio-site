@@ -1,0 +1,25 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+    margin-top: 75px;
+    background-color:#005980;
+  }
+
+.footer-links{
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+    color: white;
+    a{
+        color: white;
+        transition: all .3s;
+    }
+    a:hover{
+        transition: all .3s;
+        color: #00B2FF;
+        transform: rotate(15deg)
+    }
+}
